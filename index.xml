@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Austin Wilhelm</title>
-    <link>https://austinwilhelm.github.io/portfolio/</link>
-    <description>Recent content on Austin Wilhelm</description>
+    <title>Austin Wilhelm | User Experience Designer</title>
+    <link>https://austinwilhelm.com/</link>
+    <description>Recent content on Austin Wilhelm | User Experience Designer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://austinwilhelm.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://austinwilhelm.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>_Contact</title>
-      <link>https://austinwilhelm.github.io/portfolio/_contact/</link>
+      <link>https://austinwilhelm.com/_contact/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://austinwilhelm.github.io/portfolio/_contact/</guid>
+      <guid>https://austinwilhelm.com/_contact/</guid>
       <description>LinkedIn Resume Email</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://austinwilhelm.github.io/portfolio/_about/</link>
+      <link>https://austinwilhelm.com/_about/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://austinwilhelm.github.io/portfolio/_about/</guid>
+      <guid>https://austinwilhelm.com/_about/</guid>
       <description>Austin Wilhelm User experience designer, innovator, and dreamer. Passionate about innovating and improving the lives of others through purposeful design + technology.&#xA;Currently at Medtronic. Previously with Mindful Care and Top Echelon.</description>
     </item>
     <item>
       <title>Optimizing scheduling for mental health patients</title>
-      <link>https://austinwilhelm.github.io/portfolio/posts/mindful-care/</link>
+      <link>https://austinwilhelm.com/posts/mindful-care/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://austinwilhelm.github.io/portfolio/posts/mindful-care/</guid>
+      <guid>https://austinwilhelm.com/posts/mindful-care/</guid>
       <description>Mindful Care Leading the design efforts for a self-scheduling feature within our ever-evolving patient intake process was quite the challenge. Ultimately, the most gratifying aspect was witnessing the positive outcomes in facilitating patients’ appointment scheduling and ensuring their satisfaction.&#xA;This feature has been pushed out to the nearly 2,000 weekly new patients that sign up for Mindful Care services.&#xA;Role Duration Team UX/UI Designer Jan ‑ May 2024 Product, Engineering, Marketing Context Mindful Care is an Urgent Mental Health start-up focusing primarily on same-day and next-day care for their patients.</description>
     </item>
     <item>
       <title>A marketing website re-designed to be user-friendly</title>
-      <link>https://austinwilhelm.github.io/portfolio/posts/top-echelon/</link>
+      <link>https://austinwilhelm.com/posts/top-echelon/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://austinwilhelm.github.io/portfolio/posts/top-echelon/</guid>
+      <guid>https://austinwilhelm.com/posts/top-echelon/</guid>
       <description>Top Echelon I led a redesign effort of the Top Echelon marketing website, from researching, identifying key sticking points, to designing and handing off to external developers for implementation. The new website will save customers time and energy in gathering critical information to starting a Top Echelon subscription.&#xA;This website has been live for an average of 30k monthly users in traffic.&#xA;Role Duration Team UX Designer June ‑ Dec 2021 Marketing, Web Developers Context Top Echelon is a recruiting software designed for small and medium recruiting businesses (SMBs).</description>
     </item>
     <item>
       <title>An app concept to integrate solar technology</title>
-      <link>https://austinwilhelm.github.io/portfolio/posts/solario/</link>
+      <link>https://austinwilhelm.com/posts/solario/</link>
       <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://austinwilhelm.github.io/portfolio/posts/solario/</guid>
+      <guid>https://austinwilhelm.com/posts/solario/</guid>
       <description>Solario In my final project for Google’s UX Design course, I designed a cross-platform tool for planning solar farms.&#xA;Solar.io was conceived to facilitate the planning and optimization of solar farms for both personal and commercial applications. Challenges Design an intuitive and accessible user interface.&#xA;Understand a niche user journey.&#xA;Design responsive screens for a companion website. Empathizing In preparation for this project, I sought input from professionals within the renewable energy sector, gathering valuable insights.</description>
     </item>
     <item>
       <title>An app concept to keep your dog healthy and happy</title>
-      <link>https://austinwilhelm.github.io/portfolio/posts/kibblio/</link>
+      <link>https://austinwilhelm.com/posts/kibblio/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://austinwilhelm.github.io/portfolio/posts/kibblio/</guid>
+      <guid>https://austinwilhelm.com/posts/kibblio/</guid>
       <description>Kibblio Kibblio, a mobile app for dog owners, aims to showcase a refined mobile app prototype for tracking pet nutrition.&#xA;Applying user-centered UX design methods, including empathizing, researching, ideating, wireframing, prototyping, usability testing, and iterations, I created a prototype that dog parents would consider using. Challenges Create easy point of entry for new users&#xA;Make the UI accessible for all users&#xA;Ensure user flow is easy and intuitive to navigate</description>
     </item>
   </channel>
