@@ -365,29 +365,29 @@
 </tbody>
 </table>
 <p> </p>
-<h5 id="context">Context</h5>
+<h4 id="context">Context</h4>
 <p>Mindful Care is an Urgent Mental Health start-up focusing primarily on same-day and next-day care for their patients. Similar to an urgent care facility, the patients coming in are expecting to see someone in a timely manner. Mindful Care, striving for tech-enabled efficiency, faced challenges optimizing patient intake. Multiple intake forms plagued them, but a self-scheduling project improved the patient experience.</p>
 <p> </p>
-<h5 id="problem">Problem</h5>
+<h4 id="problem">Problem</h4>
 <p>The Mindful Care intake process is very manual on the backend. Prospective patients must fill out critical information to get the care they need. However, once that information is passed along, it becomes tedious for schedulers to find availability.</p>
 <p>The patient experience team often unknowingly scheduled appointments during inconvenient times, resulting in high cancellation rates.</p>
 <p><img src="/images/mindful-care/pre-ss.png" alt="Appointment request sent screen"></p>
 <p> </p>
 <p><img src="/images/mindful-care/goals-and-success-metrics.svg" alt="Goal and Success Metrics"></p>
 <p> </p>
-<h5 id="final-product">Final Product</h5>
+<h4 id="final-product">Final Product</h4>
 <p>The improved scheduling process allows patients to find a provider match, find an open day and time, and reserve a time before continuing through to receive care.</p>
 <p><img src="/images/mindful-care/post-ss.png" alt="Mindful Care appointment reserved screen">
  </p>
 <hr>
 <p> </p>
-<h5 id="research">Research</h5>
+<h4 id="research">Research</h4>
 <p>To better understand our patients pain points, I led <strong>8 interviews</strong> and synthesized qualitative survey feedback I&rsquo;d been collecting over the course of 2 years.</p>
 <p><img src="/images/mindful-care/insights.svg" alt="Mindful Care Research Insights">
  </p>
 <p><img src="/images/mindful-care/userflow-b4.svg" alt="Mindful Care Patient Sign up Process - Before">
  </p>
-<h5 id="significance">Significance</h5>
+<h4 id="significance">Significance</h4>
 <p>Mindful Care schedulers averaged <strong>73 new appointments daily</strong>, spending about 12 hours scheduling patients and coordinating times. Equating to roughly <strong>$5,000 per month in timecost</strong>, optimizing scheduling would allow them to focus on more critical cases and improve patient experiences.</p>
 <blockquote>
 <p>“It was over a week before anyone responded to my initial application, less than ideal. I would have appreciated scheduling a time so I knew I had an appointment&quot;<br>
@@ -398,42 +398,42 @@
 <em>-Patient Experience Team Scheduler, Mindful Care</em></p>
 </blockquote>
 <p> </p>
-<h5 id="opportunity">Opportunity</h5>
+<h4 id="opportunity">Opportunity</h4>
 <p>Providing a way to schedule more efficiently, or give the ability for a patient to schedule their own preliminary appointment would help create a better experience for them and optimize the efforts of the scheduling team.</p>
 <p> </p>
-<h5 id="prioritization">Prioritization</h5>
+<h4 id="prioritization">Prioritization</h4>
 <p>In working with the Product, Engineering, and Patient Experience Team, we discussed the current provider matching workflow alongside the user experience. The decision boiled down to prioritizing something we called <strong>self-scheduling</strong>.
 <img src="/images/mindful-care/pri.png" alt="Prioritization Workshop Session Sticky Notes"></p>
 <p> </p>
-<h5 id="design-decision-1-creating-an-entry-point">Design Decision #1: Creating an entry point</h5>
+<h4 id="design-decision-1-creating-an-entry-point">Design Decision #1: Creating an entry point</h4>
 <p>Patients signing up needed a convenient way to select a time during the registration process. After our intake workflow, where we capture critical information for both care and business practice, my team found an ideal spot to place this.
 <img src="/images/mindful-care/userflow-transform.png" alt="Added entry point screen into onboarding workflow, leading to self scheduling">
  </p>
-<h5 id="design-decision-2-displaying-providers">Design Decision #2: Displaying Providers</h5>
+<h4 id="design-decision-2-displaying-providers">Design Decision #2: Displaying Providers</h4>
 <p>In order to give patients the option to choose a provider for their sessions, we had to display any and all applicable providers. With some backend logic, we were able to filter for <strong>State</strong>, <strong>Insurance</strong>, <strong>Service</strong> and any additional preferences the patient added in.
 <img src="/images/mindful-care/displaying-providers.png" alt="Lo-Fi to Hi-Fi screens for Displaying providers">
  </p>
-<h5 id="design-decision-3-displaying-provider-information">Design Decision #3: Displaying Provider Information</h5>
+<h4 id="design-decision-3-displaying-provider-information">Design Decision #3: Displaying Provider Information</h4>
 <p>In order to know if a provider would match their preferences, a patient would be able to learn more about them on their profile page, as well as select an available time and date from a scheduling component
 <img src="/images/mindful-care/displaying-times.png" alt="Lo-Fi to Hi-Fi screens for displaying availability and provider information"></p>
 <p> </p>
 <hr>
 <p> </p>
-<h5 id="final-prototype">Final Prototype</h5>
+<h4 id="final-prototype">Final Prototype</h4>
 <p>After many versions of screens, user testing, bug fixes and more &ndash; the team finally was able to create our first version of self-scheduling that was successfully launched to the patient audience. Similar to the animation below, new patients were able to select a provider and book an appointment upon launch.
 <img src="/images/mindful-care/self-scheduling.gif" alt="Self-scheduling workflow GIF"></p>
 <p> </p>
 <hr>
 <p> </p>
-<h5 id="design-handoff">Design Handoff</h5>
+<h4 id="design-handoff">Design Handoff</h4>
 <p>Since we worked primarily out of Jira, I created feature-specific Figma file sections for each task within a file. I often added sticky notes to provide behavior and state details. Close collaboration was needed to deliver this flagship feature within a 5-month timeframe.</p>
 <p><img src="/images/mindful-care/handoff.png" alt="Smaller handoff image, one section with notes for my devs">
 <img src="/images/mindful-care/handoff-2.png" alt="Large handoff image, all of the different pages in full"></p>
 <p> </p>
-<h5 id="outcomes">Outcomes</h5>
+<h4 id="outcomes">Outcomes</h4>
 <p><img src="/images/mindful-care/outcomes.svg" alt="Three outcomes from the Self-Scheduling Feature build"></p>
 <p> </p>
-<h5 id="takeaways">Takeaways</h5>
+<h4 id="takeaways">Takeaways</h4>
 <p>I enjoyed many of my projects with Mindful Care, but none of them felt like they had as much as impact as this one. Not only did we deliver something that patients wanted, but it helped out our scheduling team efficiency and saved us hours of manual work. Through lots of cross-functional discussions, bug-squashing sessions, user-feedback sessions and more - we found a way to get this to our patients.</p>
 <p>This project taught me that you <strong>can&rsquo;t let perfection be the enemy of good</strong>. Make something that works, ship it, and learn from there.</p>
 
