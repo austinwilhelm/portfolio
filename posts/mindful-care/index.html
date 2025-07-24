@@ -355,7 +355,7 @@
   <div class="post-content">
     <h1 id="mindful-care">Mindful Care</h1>
 <p>Leading the design efforts for a self-scheduling feature within our ever-evolving patient intake process was quite the challenge. Ultimately, the most gratifying aspect was witnessing the positive outcomes in facilitating patients’ appointment scheduling and ensuring their satisfaction.</p>
-<p>This feature has been pushed out to the nearly 2,000 weekly new patients that sign up for Mindful Care services.</p>
+<p>This feature has been shipped to the average <strong>2,000</strong> weekly new patients that sign up for Mindful Care services.</p>
 <table>
 <thead>
 <tr>
@@ -373,13 +373,15 @@
 </tbody>
 </table>
 <p> </p>
+<h3 id="high-level-overview">High-level Overview</h3>
 <h4 id="context">Context</h4>
-<p>Mindful Care is an Urgent Mental Health start-up focusing primarily on same-day and next-day care for their patients. Similar to an urgent care facility, the patients coming in are expecting to see someone in a timely manner. Mindful Care, striving for tech-enabled efficiency, faced challenges optimizing patient intake. Multiple intake forms plagued them, but a self-scheduling project improved the patient experience.</p>
+<p>Mindful Care is an Urgent Mental Health start-up focusing primarily on same-day and next-day care for their patients. Similar to an urgent care facility, the patients coming in are expecting to see someone in a timely manner. Mindful Care, striving for tech-enabled efficiency, is challenged by a <strong>manual patient scheduling process</strong>.</p>
+<p><img src="/images/mindful-care/pre-ss.png" alt="Appointment request sent screen"></p>
 <p> </p>
 <h4 id="problem">Problem</h4>
-<p>The Mindful Care intake process is very manual on the backend. Prospective patients must fill out critical information to get the care they need. However, once that information is passed along, it becomes tedious for schedulers to find availability.</p>
-<p>The patient experience team often unknowingly scheduled appointments during inconvenient times, resulting in high cancellation rates.</p>
-<p><img src="/images/mindful-care/pre-ss.png" alt="Appointment request sent screen"></p>
+<p>The Mindful Care intake process is very manual for the scheduling team. Patients must fill out all of the critical info in order to be scheduled. However, once that information is passed along, it is <strong>tedious and time consuming</strong> for schedulers to find an availability that works.</p>
+<p>The scheduling team often unknowingly schedules appointments during inconvenient times, with a randomly selected provider, <strong>resulting in high cancellation rates</strong>.</p>
+<p><img src="/images/mindful-care/high-level-userflow.svg" alt="High level user workflows, both patient and scheduler"></p>
 <p> </p>
 <p><img src="/images/mindful-care/goals-and-success-metrics.svg" alt="Goal and Success Metrics"></p>
 <p> </p>
@@ -389,13 +391,14 @@
  </p>
 <hr>
 <p> </p>
+<h3 id="full-design-process">Full Design Process</h3>
 <h4 id="research">Research</h4>
 <p>To better understand our patients pain points, I led <strong>8 interviews</strong> and synthesized qualitative survey feedback I&rsquo;d been collecting over the course of 2 years.</p>
 <p><img src="/images/mindful-care/insights.svg" alt="Mindful Care Research Insights">
  </p>
 <p><img src="/images/mindful-care/userflow-b4.svg" alt="Mindful Care Patient Sign up Process - Before">
  </p>
-<h4 id="significance">Significance</h4>
+<h4 id="impact">Impact</h4>
 <p>Mindful Care schedulers averaged <strong>73 new appointments daily</strong>, spending about 12 hours scheduling patients and coordinating times. Equating to roughly <strong>$5,000 per month in timecost</strong>, optimizing scheduling would allow them to focus on more critical cases and improve patient experiences.</p>
 <blockquote>
 <p>“It was over a week before anyone responded to my initial application, less than ideal. I would have appreciated scheduling a time so I knew I had an appointment&quot;<br>
